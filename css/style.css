@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  color: rgb(34, 182, 129);
+  font-size: 1rem;
+}
+
+#playBox, select, button, #text-content {
+    border-radius: 2px;
+}
+
+#playBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid  rgb(34, 182, 129);
+  padding: 30px;
+
+}
+
+select, button {
+  margin-bottom: 50px;
+  height: 40px;
+  width: 360px;
+  background-color: rgb(34, 182, 129);
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+#text-content {
+  height: 40px;
+  width: 350px;
+  border: 5px solid rgb(34, 182, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equality {
+  border-color: rgb(135, 135, 135);
+  color: rgb(135, 135, 135);
+}
+
+.win {
+  border-color: rgb(2, 135, 201);
+  color: rgb(2, 135, 201);
+}
+
+.lose {
+  border-color: rgb(218, 80, 29);
+  color: rgb(218, 80, 29);
+}
